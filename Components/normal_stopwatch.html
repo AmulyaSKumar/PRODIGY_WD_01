@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="normal_style.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="back-button">
+            <a href="javascript:history.back()">&lt; Back</a>
+        </div>
+        <h1>Stopwatch</h1>
+        <div class="stopwatch">
+            <div class="display">00 : 00 : 00 :00</div>
+            <div class="buttons">
+                <button id="start-btn">Start</button>
+                <button id="pause-btn">Pause</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+            <div class="settings">
+                <label>
+                    <input type="checkbox" id="toggle-milliseconds" checked>
+                    Show Milliseconds
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="normal_scripts.js"></script>
+</body>
+</html>

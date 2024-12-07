@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="entry-container">
+        <div class="welcome-section">
+            <h1>Welcome to Your Stopwatch</h1>
+            <p>Track your time effectively with our versatile stopwatch tools.</p>
+        </div>
+        
+        <div class="description-section">
+            <h2>Choose Your Mode</h2>
+            <p>
+                Our stopwatch offers two unique modes to suit your needs:
+            </p>
+            <ul>
+                <li><strong>Basic Timer:</strong> A simple timer for everyday needs, ideal for workouts, cooking, or general tasks.</li>
+                <li><strong>Focused Study Stopwatch:</strong> Designed for students, it includes study logs, motivational quotes, and time tracking to enhance your focus.</li>
+            </ul>
+        </div>
+        
+        <div class="options-section">
+            <button id="regular-stopwatch">Basic Timer</button>
+            <button id="study-stopwatch">Focused Study Stopwatch</button>
+        </div>
+        
+        <div class="info-section">
+            <h2>Why Use Our Stopwatch?</h2>
+            <p>
+                Managing time effectively is crucial for success. Whether you're aiming to stay on top of daily activities or enhance your study habits, our stopwatch provides the tools you need. 
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('regular-stopwatch').addEventListener('click', () => {
+            window.location.href = './Components/normal_stopwatch.html';  // Correct path
+        });
+    
+        document.getElementById('study-stopwatch').addEventListener('click', () => {
+            window.location.href = './Components/study_stopwatch.html';  // Correct path
+        });
+    </script>
+    
+</body>
+</html>

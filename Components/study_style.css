@@ -1,0 +1,100 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bg-image.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.back-button {
+    margin: 20px;
+    text-align: left;
+}
+
+.back-button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.back-button a:hover {
+    color: #007BFF;
+}
+.study-container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.quote-display {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.stopwatch .display {
+    font-size: 40px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: rgb(14, 13, 13);
+    color:whitesmoke;
+}
+
+.log-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#log-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.settings {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}

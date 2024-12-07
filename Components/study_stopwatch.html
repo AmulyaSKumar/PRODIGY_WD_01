@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Study Stopwatch</title>
+    <link rel="stylesheet" href="study_style.css">
+</head>
+<body>
+    
+    <div class="study-container">
+        <div class="back-button">
+            <a href="javascript:history.back()">&lt; Back</a>
+        </div>
+        <h1>Stay on Track: Study and Measure Time</h1>
+        <div class="quote-display">
+            <p id="quote">"The best way to predict your future is to create it."</p>
+        </div>
+        <div class="stopwatch">
+            <div class="display">00 : 00 : 00 : 00</div>
+            <div class="buttons">
+                <button id="start-btn">Start</button>
+                <button id="pause-btn">Pause</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+            <div class="settings">
+                <label>
+                    <input type="checkbox" id="toggle-milliseconds" checked>
+                    Show Milliseconds
+                </label>
+            </div>
+        </div>
+        <div class="log-section" id="log-container" style="display: none;">
+            <h2>Study Log</h2>
+            <ul id="log-list"></ul>
+        </div>
+    </div>
+    <script src="study_scripts.js"></script>
+</body>
+</html>
