@@ -51,7 +51,7 @@ body {
     background-color: rgb(14, 13, 13);
     color:whitesmoke;
 }
-.description-section, .footer-section {
+.description-section, .info-section,.footer-section {
     margin: 20px 0;
     text-align: center;
     padding: 10px;
