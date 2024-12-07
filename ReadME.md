@@ -3,7 +3,7 @@
 A simple and intuitive Stopwatch application to track your time efficiently. Perfect for tasks like studying, exercising, or any activity that requires precise time tracking.
 
 ## Live Demo
-Check out the [PRODIGY_WD_01](https://amulyaskumar.github.io/PRODIGY_WD_01/) 
+Check out the [STOPWATCH_APPLICATION](https://amulyaskumar.github.io/PRODIGY_WD_01/) 
 
 
 ## Features
