@@ -19,12 +19,12 @@ body {
 .back-button a {
     font-size: 20px;
     text-decoration: none;
-    color: #333;
+    color:  #007BFF;
     font-weight: bold;
 }
 
 .back-button a:hover {
-    color: #007BFF;
+    color: #333;
 }
 .study-container {
     text-align: center;
